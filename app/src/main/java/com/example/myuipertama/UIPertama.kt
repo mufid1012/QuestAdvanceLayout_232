@@ -79,4 +79,11 @@ fun InfoCard(
     address: String,
     phone: String,
     backgroundColor: Color
-)
+){
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(12.dp),
+        colors = CardDefaults.cardColors(containerColor = backgroundColor) // ✅ gunakan warna dari parameter
+    )
+}
