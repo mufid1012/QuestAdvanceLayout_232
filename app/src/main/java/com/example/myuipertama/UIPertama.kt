@@ -71,3 +71,12 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
         }
     }
 }
+
+@Composable
+fun InfoCard(
+    imageRes: Int,
+    name: String,
+    address: String,
+    phone: String,
+    backgroundColor: Color
+)
