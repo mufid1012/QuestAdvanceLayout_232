@@ -64,13 +64,15 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                         color = Color.White,
                         modifier = Modifier.padding(top=15.dp)
                     )
-                }
 
-                Text(
-                    text = stringResource(id = R.string.deskripsi_logo),
-                    color = Color.White,
-                    fontSize = 16.sp
-                )
+                    Text(
+                        text = stringResource(id = R.string.alamat),
+                        fontsize = 20.sp,
+                        color = Color.Yellow,
+                        modifier.padding(top=10.dp)
+                    )
+                }
+                
             }
         }
     }
