@@ -8,4 +8,9 @@
     <string name="alamat1">Yogyakarta, Indonesia</string>
     <string name="hp1">081234567890</string>
 
+    <!-- Data Card 2 -->
+    <string name="nama2">Rachmat Septiyanto</string>
+    <string name="alamat2">Sleman, Indonesia</string>
+    <string name="hp2">082111223344</string>
+
 </resources>
