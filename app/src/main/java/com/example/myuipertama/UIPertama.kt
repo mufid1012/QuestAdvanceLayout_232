@@ -37,15 +37,12 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
 
         Card(
             modifier = Modifier
-                .fillMaxWidth(1f)
-                .padding(all = 12.dp),
-            colors = CardDefaults.cardColors(
-                containerColor = Color.DarkGray
-            )
+                .fillMaxWidth()
+                .padding(12.dp),
+            colors = CardDefaults.cardColors(containerColor = Color.DarkGray)
         ) {
             Row(
-                modifier = Modifier
-                    .padding(12.dp),
+                modifier = Modifier.padding(12.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 val gambar = painterResource(id = R.drawable.logo_umy)
@@ -56,34 +53,34 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 )
 
                 Spacer(modifier = Modifier.width(30.dp))
-                Column(){
+                Column {
                     Text(
                         text = stringResource(id = R.string.nama),
                         fontSize = 30.sp,
                         fontFamily = FontFamily.Cursive,
                         color = Color.White,
-                        modifier = Modifier.padding(top=15.dp)
+                        modifier = Modifier.padding(top = 15.dp)
                     )
 
                     Text(
                         text = stringResource(id = R.string.alamat),
                         fontSize = 20.sp,
                         color = Color.Yellow,
-                        modifier = Modifier.padding(top=10.dp)
-                    )
-                }
-                Box(
-                    modifier = Modifier
-                        .fillMaxSize()
-                ){
-                    Text(
-                        text = stringResource(id = R.string.copy),
-                        modifier = Modifier
-                            .align(Alignment.BottomCenter)
-                            .padding(bottom = 50.dp)
+                        modifier = Modifier.padding(top = 10.dp)
                     )
                 }
             }
+        }
+
+        Box(
+            modifier = Modifier.fillMaxSize()
+        ) {
+            Text(
+                text = stringResource(id = R.string.copy),
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = 50.dp)
+            )
         }
     }
 }
