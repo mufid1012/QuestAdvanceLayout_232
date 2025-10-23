@@ -85,5 +85,10 @@ fun InfoCard(
             .fillMaxWidth()
             .padding(12.dp),
         colors = CardDefaults.cardColors(containerColor = backgroundColor) // ✅ gunakan warna dari parameter
-    )
+    ){
+        Row(
+            modifier = Modifier.padding(12.dp),
+            verticalAlignment = Alignment.CenterVertically
+        )
+    }
 }
