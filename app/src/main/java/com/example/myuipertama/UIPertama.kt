@@ -43,6 +43,14 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             phone = stringResource(id = R.string.hp1)
         )
 
+        // --- CARD 2 ---
+        InfoCard(
+            imageRes = R.drawable.logo_umy,
+            name = stringResource(id = R.string.nama2),
+            address = stringResource(id = R.string.alamat2),
+            phone = stringResource(id = R.string.hp2)
+        )
+
         Box(
             modifier = Modifier.fillMaxSize()
         ) {
