@@ -96,6 +96,31 @@ fun InfoCard(
                 contentDescription = null,
                 modifier = Modifier.size(100.dp)
             )
+
+            Spacer(modifier = Modifier.width(30.dp))
+            Column {
+                Text(
+                    text = name,
+                    fontSize = 30.sp,
+                    fontFamily = FontFamily.Cursive,
+                    color = Color.White,
+                    modifier = Modifier.padding(top = 15.dp)
+                )
+
+                Text(
+                    text = address,
+                    fontSize = 20.sp,
+                    color = Color.Yellow,
+                    modifier = Modifier.padding(top = 10.dp)
+                )
+
+                Text(
+                    text = "HP: $phone",
+                    fontSize = 18.sp,
+                    color = Color.Cyan,
+                    modifier = Modifier.padding(top = 6.dp)
+                )
+            }
         }
     }
 }
