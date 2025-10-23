@@ -35,42 +35,13 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(25.dp))
 
-        Card(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(12.dp),
-            colors = CardDefaults.cardColors(containerColor = Color.DarkGray)
-        ) {
-            Row(
-                modifier = Modifier.padding(12.dp),
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                val gambar = painterResource(id = R.drawable.logo_umy)
-                Image(
-                    painter = gambar,
-                    contentDescription = null,
-                    modifier = Modifier.size(100.dp)
-                )
-
-                Spacer(modifier = Modifier.width(30.dp))
-                Column {
-                    Text(
-                        text = stringResource(id = R.string.nama),
-                        fontSize = 30.sp,
-                        fontFamily = FontFamily.Cursive,
-                        color = Color.White,
-                        modifier = Modifier.padding(top = 15.dp)
-                    )
-
-                    Text(
-                        text = stringResource(id = R.string.alamat),
-                        fontSize = 20.sp,
-                        color = Color.Yellow,
-                        modifier = Modifier.padding(top = 10.dp)
-                    )
-                }
-            }
-        }
+        // --- CARD 1 ---
+        InfoCard(
+            imageRes = R.drawable.logo_umy,
+            name = stringResource(id = R.string.nama1),
+            address = stringResource(id = R.string.alamat1),
+            phone = stringResource(id = R.string.hp1)
+        )
 
         Box(
             modifier = Modifier.fillMaxSize()
