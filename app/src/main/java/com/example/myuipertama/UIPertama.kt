@@ -89,6 +89,13 @@ fun InfoCard(
         Row(
             modifier = Modifier.padding(12.dp),
             verticalAlignment = Alignment.CenterVertically
-        )
+        ){
+            val gambar = painterResource(id = imageRes)
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier.size(100.dp)
+            )
+        }
     }
 }
