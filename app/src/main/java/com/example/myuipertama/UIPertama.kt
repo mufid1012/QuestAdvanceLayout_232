@@ -40,7 +40,8 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             imageRes = R.drawable.logo_umy,
             name = stringResource(id = R.string.nama1),
             address = stringResource(id = R.string.alamat1),
-            phone = stringResource(id = R.string.hp1)
+            phone = stringResource(id = R.string.hp1),
+            backgroundColor = Color(0xFF37474F)
         )
 
         // --- CARD 2 ---
@@ -48,7 +49,8 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             imageRes = R.drawable.logo_umy,
             name = stringResource(id = R.string.nama2),
             address = stringResource(id = R.string.alamat2),
-            phone = stringResource(id = R.string.hp2)
+            phone = stringResource(id = R.string.hp2),
+            backgroundColor = Color(0xFF4E342E)
         )
 
 // --- CARD 3 ---
@@ -56,7 +58,8 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             imageRes = R.drawable.logo_umy,
             name = stringResource(id = R.string.nama3),
             address = stringResource(id = R.string.alamat3),
-            phone = stringResource(id = R.string.hp3)
+            phone = stringResource(id = R.string.hp3),
+            backgroundColor = Color(0xFF1B5E20)
         )
 
         Box(
