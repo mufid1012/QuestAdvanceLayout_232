@@ -40,7 +40,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             imageRes = R.drawable.logo_umy,
             name = stringResource(id = R.string.nama1),
             address = stringResource(id = R.string.alamat1),
-            phone = stringResource(id = R.string.hp1),
+            phone = null,
             backgroundColor = Color(0xFF37474F)
         )
 
@@ -80,7 +80,7 @@ fun InfoCard(
     imageRes: Int,
     name: String,
     address: String,
-    phone: String,
+    phone: String?,
     backgroundColor: Color
 ){
     Card(
@@ -117,12 +117,15 @@ fun InfoCard(
                     modifier = Modifier.padding(top = 10.dp)
                 )
 
-                Text(
-                    text = "HP: $phone",
-                    fontSize = 18.sp,
-                    color = Color.Cyan,
-                    modifier = Modifier.padding(top = 6.dp)
-                )
+                // hanya tampil jika phone tidak null
+                phone?.let {
+                    Text(
+                        text = "HP: $it",
+                        fontSize = 18.sp,
+                        color = Color.Cyan,
+                        modifier = Modifier.padding(top = 6.dp)
+                    )
+                }
             }
         }
     }
