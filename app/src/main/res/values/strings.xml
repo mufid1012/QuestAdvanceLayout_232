@@ -1,23 +1,23 @@
-<resources>
-    <string name="app_name">My UIPertama</string>
-    <string name="prodi">Teknologi Informasi</string>
-    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <resources>
+        <string name="app_name">My UIPertama</string>
+        <string name="prodi">Teknologi Informasi</string>
+        <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
 
-    <!-- Data Card 1 -->
-    <string name="nama1">Muhammad Mufid</string>
-    <string name="alamat1">Yogyakarta, Indonesia</string>
-    <string name="hp1">081234567890</string>
+        <!-- Data Card 1 -->
+        <string name="nama1">Muhammad Mufid</string>
+        <string name="alamat1">Yogyakarta, Indonesia</string>
+        <string name="hp1">081234567890</string>
 
-    <!-- Data Card 2 -->
-    <string name="nama2">Rachmat Septiyanto</string>
-    <string name="alamat2">Sleman, Indonesia</string>
-    <string name="hp2">082111223344</string>
+        <!-- Data Card 2 -->
+        <string name="nama2">Rachmat Septiyanto</string>
+        <string name="alamat2">Sleman, Indonesia</string>
+        <string name="hp2">082111223344</string>
 
-    <!-- Data Card 3 -->
-    <string name="nama3">Rizky Pratama</string>
-    <string name="alamat3">Bantul, Indonesia</string>
-    <string name="hp3">083322110099</string>
+        <!-- Data Card 3 -->
+        <string name="nama3">Rizky Pratama</string>
+        <string name="alamat3">Bantul, Indonesia</string>
+        <string name="hp3">083322110099</string>
 
-    <string name="copy">copyright, 2025</string>
+        <string name="copy">copyright, 2025</string>
 
-</resources>
+    </resources>
